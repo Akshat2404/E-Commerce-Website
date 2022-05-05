@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Create Account</title>
+		<link rel="stylesheet" type="text/css" href="LoginCSS.css">
+		<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+		<script src="Prac9.js"></script>
+	</head>
+	<body onload="document.login.mail.focus()">
+		<center>
+		<section>
+			<div class="box">
+				<div class="form">
+				<h2 style="letter-spacing: 1px;">Create Account</h2>
+				<form name="login" method="get" action="LoginHTML.html">
+					<div class="inputBx">
+						<img src="user.png">
+						<input type="text" name="mail" id="mail" placeholder="Mail ID" style="letter-spacing: 2px;">
+					</div>
+					<div class="inputBx">
+						<img src="lock.png">
+						<input type="Password" name="pwd" placeholder="Password" id="pwd" style="letter-spacing: 2px;">
+					</div>
+					<div class="inputBx">
+						<img src="lock.png">
+						<input type="Password" name="conp	wd" placeholder="Confirm Password" id="conpwd" style="letter-spacing: 2px;">
+					</div>
+					<br>
+					<div class="inputBx" style = "margin: 10px;">
+					<a href="LoginHTML.html"><button type="submit" name="submit" value="Submit" onclick="validateForm()">Create</button></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	</center>
+</body>
+</html>
